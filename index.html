@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh"><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>My Todo App</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/jquery.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+<div class="msg">
+    <span class="msg-content"></span>
+    <span class="anchor confirmed">知道了</span>
+</div>
+<div class="container"><!-- 总容器开始 -->
+    <h1>我的Todo</h1>
+    <form class="add-task">
+        <input name="content" placeholder="e.g. 下午记得买菜" autofocus="" autocomplete="off" type="text">
+        <button type="submit">submit</button>
+    </form>
+    <div class="task-list"></div><!--清单列表结束-->
+    <div class="task-detail-mask"></div>
+    <div class="task-detail"><!-- 任务详情开始 -->
+    </div><!-- 任务详情结束 -->
+</div><!-- 总容器结束 -->
+<video class="alerter" src="./alert.mp3"></video>
+<script src="js/jquery.js"></script>
+<script src="js/jquery_002.js"></script>
+<script src="js/store.js"></script>
+<script src="js/base.js"></script>
+</body></html>
